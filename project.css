@@ -1,0 +1,46 @@
+body {
+    background: linear-gradient(to right, #f200fa, #000000);
+    font-family: Arial, sans-serif;
+}
+
+#lol {
+    background-color: silver;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+#l1 {
+    background-image: url('https://media1.tenor.com/m/zhHixZ3a7FUAAAAC/github-banner.gif');
+    padding: 20px;
+    animation: obsanimation 1s linear infinite;
+}
+
+#l2 {
+    background-color: darkgrey;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+#lol:hover,
+#l2:hover {
+    transform: scale(1.1);
+}
+
+@keyframes obsanimation {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+.fa-github {
+    color: #000000;
+    background-color: silver;
+    padding: 15px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    position: absolute;
+}
+
+
+
